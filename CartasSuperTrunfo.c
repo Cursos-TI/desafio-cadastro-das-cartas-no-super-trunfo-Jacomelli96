@@ -18,7 +18,7 @@ int main() {
     int Carta = 1;
     int Carta = 2;
 
-    printf("Desafio Xadrez!\n");
+    printf("EstadoA: %c\n, carta A");
    
     printf("Digite a sua Carta: \n");
     printf("Novo Commit\n");
