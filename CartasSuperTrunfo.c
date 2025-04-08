@@ -1,26 +1,36 @@
 #include <stdio.h>
 
 int main() {
-    char EstadoA[20] = "Amazonas";
-    char EstadoB[20] = "Bahia";
-    char CodigoA[20] = "A01";
-    char CodigoB[20] = "A02";
-    char CidadeA[20] = "Manaus";
-    char CidadeB[20] = "Salvador";
-    int PopulaçãoA = 2064000;
-    int PopulaçãoB = 2418000;
-    float ÁreaA = 11.401;
-    float ÁreaB = 693.8;
-    float PibA = 103.281;
-    float PibB = 62.904;
-    int PontosturisticoA = 25;
-    int PontosturisticoB = 63;
-    int Carta = 1;
-    int Carta = 2;
+    char estadoA[20] = "Amazonas";
+    char carta[20] = "A01";
+    char cidade [20] = "Manaus";
+    int populacao = 400000;
+    float area = 20000000;
+    int turismo = 35;
 
-    printf("EstadoA: %c\n, carta A");
+    printf("Carta: %s\n", carta);
+    printf("Estado: %s\n", estadoA);
+    printf("Cidade: %s\n", cidade);
+    printf("População: %.2f\n", populacao);
+    printf("Área: %.2f\n", area);
+    printf("Pontos Turisticos: %d\n", turismo);
    
-    printf("Digite a sua Carta: \n");
-    printf("Novo Commit\n");
+printf("\n");
 
+    char estadoB[20] = "Ceara";
+    char cartab[20] = "B01";
+    char cidadeb [20] = "Fortaleza";
+    int populacaob = 500000;
+    float areab = 200000000;
+    int turismob = 65;
+
+    printf("Carta: %s\n", cartab);
+    printf("Estado %s\n", estadoB);
+    printf("Cidade %s\n", cidadeb);
+    printf("População %.2f\n", populacaob);
+    printf("Área %.2f\n", areab);
+    printf("Pontos Turisticos %d\n", turismob);
+
+
+    return 0;
 }
