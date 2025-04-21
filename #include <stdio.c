@@ -43,5 +43,16 @@ printf("\n");
     printf("Desnsidade populacional: %.2f\n", densidadeb);
     printf("PIB per capita: %.2f\n", pibpercapitab);
 
+    printf("\n");
+
+    // Comparação de carta a01 contra carta b01 sendo 0 uma afirmação falsa e 1 uma afirmção verdadeira.
+    
+    printf("Manaus é maior que Fortaleza: %d\n", populacao > populacaob);
+    printf("Área de Manaus é maior que a área de Fortaleza: %d\n", area > areab);
+    printf("PIB de Manaus é maior que o PIB de Fortaleza: %d\n", pib > pibb);
+    printf("Manaus tem mais pontos turisticos que Fortaleza: %d\n", turismo > turismob);
+    printf("Manaus tem uma desnsidade populacional maior que Fortaleza: %d\n", densidade < densidadeb);
+    printf(" Manaus tem um PIB per capita maior que Fortaleza: %d\n", pibpercapita > pibpercapitab);
+    
     return 0;
 }
